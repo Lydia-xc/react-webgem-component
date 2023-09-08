@@ -1,0 +1,91 @@
+// 基本颜色
+$primary: #007bff; // 主要品牌颜色
+$secondary: #6c757d; // 次要品牌颜色
+$success: #28a745; // 成功状态颜色
+$danger: #dc3545; // 危险状态颜色
+$warning: #ffc107; // 警告状态颜色
+$info: #17a2b8; // 信息状态颜色
+$light: #f8f9fa; // 浅色背景颜色
+$dark: #343a40; // 深色背景颜色
+
+// 辅助颜色
+$gray: #6c757d; // 灰色
+$white: #ffffff; // 白色
+$black: #000000; // 黑色
+
+// 链接颜色
+$link: $primary; // 链接颜色
+
+// 文本颜色
+$text-color: #333; // 主要文本颜色
+$link-text-color: $link; // 链接文本颜色
+$secondary-text-color: #666; // 次要文本颜色
+$light-text-color: #999; // 浅色文本颜色
+$dark-text-color: #222; // 深色文本颜色
+
+// 阴影颜色
+$box-shadow-color: rgba(0, 0, 0, 0.2); // 阴影颜色
+
+// 按钮颜色
+$button-primary: $primary; // 主要按钮颜色
+$button-secondary: $secondary; // 次要按钮颜色
+$button-success: $success; // 成功按钮颜色
+$button-danger: $danger; // 危险按钮颜色
+$button-warning: $warning; // 警告按钮颜色
+$button-info: $info; // 信息按钮颜色
+
+// 边框颜色
+$border-color: #ddd; // 边框颜色
+
+// 表格颜色
+$table-header-bg: $light; // 表头背景颜色
+$table-header-text: $dark-text-color; // 表头文本颜色
+$table-striped-bg: $light; // 条纹表格背景颜色
+
+// 标签颜色
+$label-primary: $primary; // 主要标签颜色
+$label-secondary: $secondary; // 次要标签颜色
+$label-success: $success; // 成功标签颜色
+$label-danger: $danger; // 危险标签颜色
+$label-warning: $warning; // 警告标签颜色
+$label-info: $info; // 信息标签颜色
+
+// 其他颜色
+$success-bg: $success; // 成功状态背景颜色
+$danger-bg: $danger; // 危险状态背景颜色
+$info-bg: $info; // 信息状态背景颜色
+$warning-bg: $warning; // 警告状态背景颜色
+
+// 自定义颜色
+//字体
+$font-family-sans-serif: -apple-system,BlinkMacSystemFont;
+
+// 字体尺寸
+$font-size-base:1rem !default;
+$font-size-lg:1.25rem !default;
+$font-size-sm:0.875!default;
+$h1-font-size:$font-size-base*2 !default;
+$h1-font-size:$font-size-base*1.75 !default;
+$h1-font-size:$font-size-base*1.5 !default;
+$h1-font-size:$font-size-base*1.25 !default;
+$h1-font-size:$font-size-base !default;
+// 行距
+$line-height-base:1.5 !default;
+$line-height-lg:2 !default;
+$line-height-sm:1.25 !default;
+
+// 自重
+$font-weight-lighter:lighter !default;
+$font-weight-light:300 !default;
+$font-weight-normal:400 !default;
+$font-weight-bold:700 !default;
+$font-weight-bolder:bolder !default;
+$font-weight-base:$font-weight-normal !default;
+// 链接
+$link-text-color:$primary !default;
+$link-text-decoration:none !default;
+$link-text-decoration:none !default;
+// 页面
+$body-bg:$white !default;
+$body-color:$gray !default;
+$body-bg:$white !default;
